@@ -1,15 +1,41 @@
+<!DOCTYPE html>
 <style>
-  .trail { /* className for the trail elements */
+  .trail { /* className for trail elements */
     position: absolute;
     height: 6px; width: 6px;
     border-radius: 3px;
-    background: teal;
+    font-size: 12px;
   }
   body {
     height: 300px;
   }
 </style>
 
-<script>
-  // Your code here.
-</script>
+<body>
+
+  <script>
+    document.body.addEventListener("mousemove", moved);
+
+    // create, style, append trail elements
+    const trailElements = [];
+    const numOfTrailElements = 10;
+    for (let i = 0; i < numOfTrailElements; i++) {
+      const element = document.createElement('div');
+      element.className = 'trail';
+      element.textContent = "⚾︎";
+      document.body.appendChild(element);
+      trailElements.push(element);
+    }
+
+    // when mouse moves, display trail elements in wake of mouse pointer
+    let counter = 0; // current trail element index
+    function moved(event) {              
+      // The left property in CSS is used to specify the horizontal position of a positioned element.
+      trailElements[counter].style.left = event.clientX + 'px';
+      // The top property affects the vertical position of a positioned element.
+      trailElements[counter].style.top = event.clientY + 'px';
+
+      if (counter === numOfTrailElements - 1) counter = 0; else counter += 1; 
+    }
+  </script>
+</body>

@@ -144,7 +144,7 @@ Función básica para dibujar. Se tiene un listener del evento click que introdu
 
 Básicamente, coloca puntos en la página.
 
-<captura1>
+![Captura1](screenshots/captura2.png?raw=true "Captura 1")
 
 ### Mouse motion
 
@@ -155,8 +155,6 @@ Como ejemplo, el siguiente programa muestra una barra.
 
 Tiene un handler que escucha si se ha pulsado el botón del ratón principal (el izquierdo). De ser así, va guardando la posición en la que se encuentra el ratón en la variable lastX. Después, añade un listener que está pendiente escuchando si el ratón se esta moviendo o no. 
 Si no se mueve, no hace nada, pero en caso de que sí, calcula la nueva posición y se la asigna al div.
-
-
 
 ```html
 <p>Drag the bar to change its width:</p>
@@ -186,8 +184,7 @@ Si no se mueve, no hace nada, pero en caso de que sí, calcula la nueva posició
 </script>
 ```
 
-<captura2>
-
+![Captura2](screenshots/captura2.png?raw=true "Captura 2")
 
 ### Eventos touch
 
@@ -301,7 +298,7 @@ En este ejemplo, por ejemplo, mostramos el mensaje de Type mientras la persona t
 </script>
 ´´´
 
-Un patrón ligeramente distinto lo tendríamos cuando movemos el ratón. 
+Un patrón ligeramente distinto lo tendríamos cuando movemos el ratón.
 
 ```javascript
 <script>
@@ -321,3 +318,5 @@ Un patrón ligeramente distinto lo tendríamos cuando movemos el ratón.
 
 En este ejemplo, cada vez que movemos el ratón mostramos su posición. Pero solo actualizamos el DOM cada 250ms para evitar que el evento
 se dispare demasiadas veces.
+
+## Jekyll
