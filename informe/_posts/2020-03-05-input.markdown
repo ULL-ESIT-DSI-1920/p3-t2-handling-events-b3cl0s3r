@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2020-03-05 13:31:07 +0000
+categories: jekyll update
+---
+
+
+<input></input>
+
+<script>
+  addEventListener("keydown", function(event) {
+    if (event.keyCode == "Q".charCodeAt(0) ||
+        event.keyCode == "W".charCodeAt(0) ||
+        event.keyCode == "X".charCodeAt(0))
+      event.preventDefault();
+  });
+</script>

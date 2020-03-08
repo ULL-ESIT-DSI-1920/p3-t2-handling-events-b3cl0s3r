@@ -144,7 +144,7 @@ Función básica para dibujar. Se tiene un listener del evento click que introdu
 
 Básicamente, coloca puntos en la página.
 
-![Captura1](screenshots/captura2.png?raw=true "Captura 1")
+![Captura1](screenshots/captura1.png?raw=true "Captura 1")
 
 ### Mouse motion
 
@@ -227,7 +227,7 @@ el focus.
     });
   }
 </script>
-´´´
+```
 
 ### Evento de load
 
@@ -271,7 +271,7 @@ if (Math.random() < 0.5) { // 50% chance
   clearTimeout(bombTimer);
 }
 </script>
-´´´
+```
 
 Alternativamente, existe setInterval() y clearInterval (que funcionan exactamente de la misma manera (timers que ejecutan una tarea cada X segundos)
 y requestAnimationFrame() y cancelAnimationFrame()
@@ -296,7 +296,7 @@ En este ejemplo, por ejemplo, mostramos el mensaje de Type mientras la persona t
     timeout = setTimeout(() => console.log("Typed!"), 500);
   });
 </script>
-´´´
+```
 
 Un patrón ligeramente distinto lo tendríamos cuando movemos el ratón.
 
@@ -320,3 +320,32 @@ En este ejemplo, cada vez que movemos el ratón mostramos su posición. Pero sol
 se dispare demasiadas veces.
 
 ## Jekyll
+
+Después de instalar jekyll, para crear un nuevo proyecto debemos de hacer:
+
+```bash
+  jekyll new <nombreproyecto>
+```
+
+Ahora, debemos de hacer un build de la web con:
+
+```bash
+bundle exec jekyll  build -b "p3-t2-handling-events-b3cl0s3r"
+```
+Modificamos el package.json y añadimos un nuevo script, para automatizar el despliegue en github pages:
+
+```json
+"scripts": {
+  "deploy": "gh-pages -d _site"
+}
+```
+
+Finalmente, hacemos un deploy en github:
+
+```bash
+npm run deploy
+```
+
+Si accedemos a https://ull-esit-dsi-1920.github.io/p3-t2-handling-events-b3cl0s3r/ podremos ver la web desplegada.
+
+![Captura3](screenshots/captura3.png?raw=true "Captura 3")
