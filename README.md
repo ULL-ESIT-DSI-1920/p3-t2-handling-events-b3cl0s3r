@@ -349,3 +349,8 @@ npm run deploy
 Si accedemos a https://ull-esit-dsi-1920.github.io/p3-t2-handling-events-b3cl0s3r/ podremos ver la web desplegada.
 
 ![Captura3](screenshots/captura3.png?raw=true "Captura 3")
+
+Asimismo, para configurar nuestra web, como el título y la descripción, debemos modificar el fichero _config.yml que sea crea con jekyll.
+
+Ahí podemos añadir variables que luego podemos utilizar dentro de la página utilizando el lenguaje Liquid, un lenguaje de plantillas. Esta nos puede ayudar para definir como se construirá nuestra web estática.
+
