@@ -8,7 +8,6 @@ categories: jekyll update
 <h1>Ejercicio 2: Mouse Trail</h1>
 <p>A series of images that would follow the mouse pointer as you moved it across the page.</p>
 
-<!DOCTYPE html>
 <style>
   .trail { /* className for trail elements */
     position: absolute;
