@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Ejercicio 1"
 date:   2020-03-05 13:31:07 +0000
 categories: jekyll update
 ---
 
+<h1>Ejercicio 1: Censored Keyboard</h1>
+<p>Program a text field (an input tag) where the letters Q, W, and X cannot be typed into</p>
 
-<input></input>
+<input/>
 
 <script>
   addEventListener("keydown", function(event) {

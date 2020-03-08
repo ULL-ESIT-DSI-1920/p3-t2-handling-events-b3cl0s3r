@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Ejercicio 3"
+date:   2020-03-05 14:31:07 +0000
+categories: jekyll update
+---
+
+<h1>Ejercicio 3: Tabs</h1>
+<p>A tabbed interface. It allows you to select an interface panel by choosing from a number of tabs sticking out above an element.</p>
+
+<!doctype html>
+
+<div id="wrapper">
+  <div data-tabname="one">Tab one</div>
+  <div data-tabname="two">Tab two</div>
+  <div data-tabname="three">Tab three</div>
+</div>
+<script>
+  function asTabs(node) {
+    let tabs = [];
+    for (let i = 0; i < node.childNodes.length; i++) {
+      let child = node.childNodes[i];
+      if (child.nodeType == document.ELEMENT_NODE)
+        tabs.push(child);
+    }
+
+    let tabList = document.createElement("div");
+    tabs.forEach(function(tab, i) {
+      let button = document.createElement("button");
+      button.textContent = tab.getAttribute("data-tabname");
+      button.addEventListener("click", function() { selectTab(i); });
+      tabList.appendChild(button);
+    });
+    node.insertBefore(tabList, node.firstChild);
+
+    function selectTab(n) {
+      tabs.forEach(function(tab, i) {
+        if (i == n)
+          tab.style.display = "";
+        else
+          tab.style.display = "none";
+      });
+     
+    }
+    selectTab(0);
+  }
+  asTabs(document.querySelector("#wrapper"));
+</script>
