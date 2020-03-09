@@ -22,7 +22,7 @@ title: p3-t2-handling-events-b3cl0s3r
 email: alu0101045788@ull.edu.es
 description: >- # this means to ignore newlines until "baseurl:"
   Página para la práctica 3 de DSI.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/p3-t2-handling-events-b3cl0s3r" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
