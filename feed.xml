@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/p3-t2-handling-events-b3cl0s3r/feed.xml" rel="self" type="application/atom+xml" /><link href="/p3-t2-handling-events-b3cl0s3r/" rel="alternate" type="text/html" /><updated>2020-03-09T02:31:44+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/feed.xml</id><title type="html">p3-t2-handling-events-b3cl0s3r</title><subtitle>Página para la práctica 3 de DSI.</subtitle><entry><title type="html">Informe práctica</title><link href="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe.html" rel="alternate" type="text/html" title="Informe práctica" /><published>2020-03-05T16:31:07+00:00</published><updated>2020-03-05T16:31:07+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe</id><content type="html" xml:base="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe.html">&lt;h2 id=&quot;handling-events---chapter-15&quot;&gt;Handling events - Chapter 15&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/p3-t2-handling-events-b3cl0s3r/feed.xml" rel="self" type="application/atom+xml" /><link href="/p3-t2-handling-events-b3cl0s3r/" rel="alternate" type="text/html" /><updated>2020-03-09T02:43:15+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/feed.xml</id><title type="html">p3-t2-handling-events-b3cl0s3r</title><subtitle>Página para la práctica 3 de DSI.</subtitle><entry><title type="html">Informe práctica</title><link href="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe.html" rel="alternate" type="text/html" title="Informe práctica" /><published>2020-03-05T16:31:07+00:00</published><updated>2020-03-05T16:31:07+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe</id><content type="html" xml:base="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe.html">&lt;h2 id=&quot;handling-events---chapter-15&quot;&gt;Handling events - Chapter 15&lt;/h2&gt;
 
 &lt;h3 id=&quot;handling-events&quot;&gt;Handling events&lt;/h3&gt;
 
@@ -137,7 +137,7 @@ mantener la tecla pulsada dispara varias veces el evento keydown.&lt;/p&gt;
 
 &lt;p&gt;Básicamente, coloca puntos en la página.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;screenshots/captura1.png?raw=true&quot; alt=&quot;Captura1&quot; title=&quot;Captura 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/captura1.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;mouse-motion&quot;&gt;Mouse motion&lt;/h3&gt;
 
@@ -176,7 +176,7 @@ Si no se mueve, no hace nada, pero en caso de que sí, calcula la nueva posició
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;screenshots/captura2.png?raw=true&quot; alt=&quot;Captura2&quot; title=&quot;Captura 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/captura2.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;eventos-touch&quot;&gt;Eventos touch&lt;/h3&gt;
 
@@ -329,7 +329,7 @@ se dispare demasiadas veces.&lt;/p&gt;
 
 &lt;p&gt;Si accedemos a https://ull-esit-dsi-1920.github.io/p3-t2-handling-events-b3cl0s3r/ podremos ver la web desplegada.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;screenshots/captura3.png?raw=true&quot; alt=&quot;Captura3&quot; title=&quot;Captura 3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/captura3.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Asimismo, para configurar nuestra web, como el título y la descripción, debemos modificar el fichero _config.yml que sea crea con jekyll.&lt;/p&gt;
 
@@ -341,13 +341,13 @@ se dispare demasiadas veces.&lt;/p&gt;
 
 &lt;p&gt;El mayor uso de HTMLProofer es para integración continua, para testear la calidad de un documento html.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;screenshots/captura4.png?raw=true&quot; alt=&quot;Captura4&quot; title=&quot;Captura 4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/captura4.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;En esta imagen, se ve como funciona htmlproofer. Saca un montón de errores de links que no tienen referencia. Esto se debe porque corrí el programa dentro de la ruta _site/jekyll/update/2020/03/05 en lugar de _site y, de esta manera, no detecta las direcciones del href.&lt;/p&gt;
 
 &lt;p&gt;Sin embargo, si lo ejecutamos sobre _site:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;screenshots/captura5.png?raw=true&quot; alt=&quot;Captura5&quot; title=&quot;Captura 5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/captura5.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sale todo correcto.&lt;/p&gt;
 
