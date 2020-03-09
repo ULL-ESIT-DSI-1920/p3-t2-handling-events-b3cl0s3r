@@ -9,11 +9,12 @@ categories: jekyll update
 <p>A series of images that would follow the mouse pointer as you moved it across the page.</p>
 
 <style>
-  .trail { /* className for trail elements */
+  .trail { 
     position: absolute;
-    height: 6px; width: 6px;
+    height: 10px; width: 10px;
     border-radius: 3px;
     font-size: 12px;
+    background-color: red;
   }
   body {
     height: 300px;
@@ -31,7 +32,7 @@ categories: jekyll update
     for (let i = 0; i < numOfTrailElements; i++) {
       const element = document.createElement('div');
       element.className = 'trail';
-      element.textContent = "⚾︎";
+      element.textContent = "";
       document.body.appendChild(element);
       trailElements.push(element);
     }
