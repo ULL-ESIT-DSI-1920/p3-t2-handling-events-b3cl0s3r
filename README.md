@@ -354,3 +354,4 @@ Asimismo, para configurar nuestra web, como el título y la descripción, debemo
 
 Ahí podemos añadir variables que luego podemos utilizar dentro de la página utilizando el lenguaje Liquid, un lenguaje de plantillas. Esta nos puede ayudar para definir como se construirá nuestra web estática.
 
+### HTMLProofer y travis
