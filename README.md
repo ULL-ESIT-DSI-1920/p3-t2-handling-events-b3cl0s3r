@@ -370,3 +370,18 @@ Sin embargo, si lo ejecutamos sobre _site:
 
 Sale todo correcto.
 
+Podemos automatizar esta prueba con un Rakefile de la siguiente manera:
+
+```rakefile
+require 'html-proofer'
+
+task :test do
+  sh "bundle exec jekyll build"
+  options = { :assume_extension => true }
+  HTMLProofer.check_directory("./_site", options).run
+end
+```
+
+Así, solo tenemos que ejecutar rake test.
+
+
