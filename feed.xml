@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/p3-t2-handling-events-b3cl0s3r/feed.xml" rel="self" type="application/atom+xml" /><link href="/p3-t2-handling-events-b3cl0s3r/" rel="alternate" type="text/html" /><updated>2020-03-09T02:47:45+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/feed.xml</id><title type="html">p3-t2-handling-events-b3cl0s3r</title><subtitle>Página para la práctica 3 de DSI.</subtitle><entry><title type="html">Informe práctica</title><link href="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe.html" rel="alternate" type="text/html" title="Informe práctica" /><published>2020-03-05T16:31:07+00:00</published><updated>2020-03-05T16:31:07+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe</id><content type="html" xml:base="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe.html">&lt;h2 id=&quot;handling-events---chapter-15&quot;&gt;Handling events - Chapter 15&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/" rel="alternate" type="text/html" /><updated>2020-03-09T10:13:26+00:00</updated><id>http://localhost:4000/p3-t2-handling-events-b3cl0s3r/feed.xml</id><title type="html">p3-t2-handling-events-b3cl0s3r</title><subtitle>Página para la práctica 3 de DSI.</subtitle><entry><title type="html">Informe práctica</title><link href="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe.html" rel="alternate" type="text/html" title="Informe práctica" /><published>2020-03-05T16:31:07+00:00</published><updated>2020-03-05T16:31:07+00:00</updated><id>http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe</id><content type="html" xml:base="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/informe.html">&lt;h2 id=&quot;handling-events---chapter-15&quot;&gt;Handling events - Chapter 15&lt;/h2&gt;
 
 &lt;h3 id=&quot;handling-events&quot;&gt;Handling events&lt;/h3&gt;
 
@@ -362,7 +362,7 @@ task :test do
 end
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Así, solo tenemos que ejecutar rake test.&lt;/p&gt;</content><author><name></name></author><summary type="html">Handling events - Chapter 15</summary></entry><entry><title type="html">Ejercicio 3</title><link href="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-3.html" rel="alternate" type="text/html" title="Ejercicio 3" /><published>2020-03-05T14:31:07+00:00</published><updated>2020-03-05T14:31:07+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-3</id><content type="html" xml:base="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-3.html">&lt;h1&gt;Ejercicio 3: Tabs&lt;/h1&gt;
+&lt;p&gt;Así, solo tenemos que ejecutar rake test.&lt;/p&gt;</content><author><name></name></author><summary type="html">Handling events - Chapter 15</summary></entry><entry><title type="html">Ejercicio 3</title><link href="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-3.html" rel="alternate" type="text/html" title="Ejercicio 3" /><published>2020-03-05T14:31:07+00:00</published><updated>2020-03-05T14:31:07+00:00</updated><id>http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-3</id><content type="html" xml:base="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-3.html">&lt;h1&gt;Ejercicio 3: Tabs&lt;/h1&gt;
 &lt;p&gt;A tabbed interface. It allows you to select an interface panel by choosing from a number of tabs sticking out above an element.&lt;/p&gt;
 
 &lt;div id=&quot;wrapper&quot;&gt;
@@ -400,15 +400,16 @@ end
     selectTab(0);
   }
   asTabs(document.querySelector(&quot;#wrapper&quot;));
-&lt;/script&gt;</content><author><name></name></author><summary type="html">Ejercicio 3: Tabs A tabbed interface. It allows you to select an interface panel by choosing from a number of tabs sticking out above an element.</summary></entry><entry><title type="html">Ejercicio 2</title><link href="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-2.html" rel="alternate" type="text/html" title="Ejercicio 2" /><published>2020-03-05T14:31:07+00:00</published><updated>2020-03-05T14:31:07+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-2</id><content type="html" xml:base="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-2.html">&lt;h1&gt;Ejercicio 2: Mouse Trail&lt;/h1&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html">Ejercicio 3: Tabs A tabbed interface. It allows you to select an interface panel by choosing from a number of tabs sticking out above an element.</summary></entry><entry><title type="html">Ejercicio 2</title><link href="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-2.html" rel="alternate" type="text/html" title="Ejercicio 2" /><published>2020-03-05T14:31:07+00:00</published><updated>2020-03-05T14:31:07+00:00</updated><id>http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-2</id><content type="html" xml:base="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/ej-2.html">&lt;h1&gt;Ejercicio 2: Mouse Trail&lt;/h1&gt;
 &lt;p&gt;A series of images that would follow the mouse pointer as you moved it across the page.&lt;/p&gt;
 
 &lt;style&gt;
-  .trail { /* className for trail elements */
+  .trail { 
     position: absolute;
-    height: 6px; width: 6px;
+    height: 10px; width: 10px;
     border-radius: 3px;
     font-size: 12px;
+    background-color: red;
   }
   body {
     height: 300px;
@@ -426,7 +427,7 @@ end
     for (let i = 0; i &lt; numOfTrailElements; i++) {
       const element = document.createElement('div');
       element.className = 'trail';
-      element.textContent = &quot;⚾︎&quot;;
+      element.textContent = &quot;&quot;;
       document.body.appendChild(element);
       trailElements.push(element);
     }
@@ -442,7 +443,7 @@ end
       if (counter === numOfTrailElements - 1) counter = 0; else counter += 1; 
     }
   &lt;/script&gt;
-&lt;/body&gt;</content><author><name></name></author><summary type="html">Ejercicio 2: Mouse Trail A series of images that would follow the mouse pointer as you moved it across the page.</summary></entry><entry><title type="html">Ejercicio 1</title><link href="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/input.html" rel="alternate" type="text/html" title="Ejercicio 1" /><published>2020-03-05T13:31:07+00:00</published><updated>2020-03-05T13:31:07+00:00</updated><id>/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/input</id><content type="html" xml:base="/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/input.html">&lt;h1&gt;Ejercicio 1: Censored Keyboard&lt;/h1&gt;
+&lt;/body&gt;</content><author><name></name></author><summary type="html">Ejercicio 2: Mouse Trail A series of images that would follow the mouse pointer as you moved it across the page.</summary></entry><entry><title type="html">Ejercicio 1</title><link href="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/input.html" rel="alternate" type="text/html" title="Ejercicio 1" /><published>2020-03-05T13:31:07+00:00</published><updated>2020-03-05T13:31:07+00:00</updated><id>http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/input</id><content type="html" xml:base="http://localhost:4000/p3-t2-handling-events-b3cl0s3r/jekyll/update/2020/03/05/input.html">&lt;h1&gt;Ejercicio 1: Censored Keyboard&lt;/h1&gt;
 &lt;p&gt;Program a text field (an input tag) where the letters Q, W, and X cannot be typed into&lt;/p&gt;
 
 &lt;p&gt;&lt;input /&gt;&lt;/p&gt;
