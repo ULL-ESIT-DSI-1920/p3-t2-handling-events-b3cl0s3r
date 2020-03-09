@@ -355,3 +355,18 @@ Asimismo, para configurar nuestra web, como el título y la descripción, debemo
 Ahí podemos añadir variables que luego podemos utilizar dentro de la página utilizando el lenguaje Liquid, un lenguaje de plantillas. Esta nos puede ayudar para definir como se construirá nuestra web estática.
 
 ### HTMLProofer y travis
+
+HTMLProofer es un set de tests que valida el output de un HTML. Estos checks comprueban que las referencias de las imágenes son legitimas, que tienen las etiquetas alt, que los links internos funcionan... entre otros.
+
+El mayor uso de HTMLProofer es para integración continua, para testear la calidad de un documento html.
+
+![Captura4](screenshots/captura4.png?raw=true "Captura 4")
+
+En esta imagen, se ve como funciona htmlproofer. Saca un montón de errores de links que no tienen referencia. Esto se debe porque corrí el programa dentro de la ruta _site/jekyll/update/2020/03/05 en lugar de _site y, de esta manera, no detecta las direcciones del href.
+
+Sin embargo, si lo ejecutamos sobre _site:
+
+![Captura5](screenshots/captura5.png?raw=true "Captura 5")
+
+Sale todo correcto.
+
